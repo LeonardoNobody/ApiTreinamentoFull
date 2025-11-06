@@ -1,0 +1,10 @@
+{
+  "name": "api-treinamento-full",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"dotnet watch --project backend/ApiTreinamento.csproj --urls http://localhost:5000\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9"
+  }
+}
